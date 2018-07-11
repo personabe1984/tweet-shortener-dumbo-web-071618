@@ -40,7 +40,7 @@ end
 
 def shortened_tweet_truncator(tweet)
   if word_substituter(tweet).length > 140
-    # With additional ... the program needs to subtract 3 from 140
+    # With additional ... the program needs to subtract 4 since it starts at 0 index from 140
     word_substituter(tweet)[0..136] + '...'
   else
     tweet
