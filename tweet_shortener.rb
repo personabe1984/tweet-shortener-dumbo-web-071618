@@ -46,7 +46,7 @@ def shortened_tweet_truncator(tweet)
   end
 end
 
-
+=begin 
 
 test_string = "Hey too, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
 puts word_substituter(test_string)
@@ -60,3 +60,4 @@ def test(tweet)
 end
 
 #puts test(test_string)
+=end
